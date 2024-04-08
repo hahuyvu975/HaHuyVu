@@ -10,9 +10,10 @@
   },
   "name": "problem5",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node server.ts",
+    "dev": "nodemon server.ts"
   },
   "author": "hahuyvu",
   "license": "ISC",
